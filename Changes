@@ -1,5 +1,8 @@
 Revision history for Perl extension WebService::JugemKey::Auth.
 
+0.03  Wed May 31 13:30:00 2006
+       - fix Makefile.PL and delete dependency on Perl 5.8.7.
+
 0.02  Wed May 31 11:36:00 2006
         - fix JugemKey Auth API URL in pod.
 
