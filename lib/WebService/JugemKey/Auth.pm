@@ -2,7 +2,7 @@ package WebService::JugemKey::Auth;
 
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw (Class::Accessor::Fast Class::ErrorHandler);
 
@@ -174,7 +174,7 @@ WebService::JugemKey::Auth - Perl interface to the JugemKey Authentication API
 =head1 DESCRIPTION
 
 A simple interface for using the JugemKey Auththentication API.
-L<https://secure.jugemkey.jp/?mode=auth_top>
+L<http://jugemkey.jp/api/auth/>
 
 =head1 METHODS
 
@@ -242,7 +242,7 @@ Set/Get a user-agent name.
 
 =head1 SEE ALSO
 
-JugemKey Authentication API L<https://secure.jugemkey.jp/?mode=auth_top>
+JugemKey Authentication API L<http://jugemkey.jp/api/auth/>
 
 
 This module's interface and code are inspired by L<Hatena::API::Auth>.
