@@ -2,7 +2,7 @@ package WebService::JugemKey::Auth;
 
 use strict;
 use warnings;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use base qw (Class::Accessor::Fast Class::ErrorHandler);
 
@@ -144,6 +144,10 @@ __END__
 
 WebService::JugemKey::Auth - Perl interface to the JugemKey Authentication API
 
+=head1 VERSION
+
+Version 0.04
+
 =head1 SYNOPSIS
 
   use WebService::JugemKey::Auth;
@@ -250,12 +254,51 @@ Thanks to Naoya Ito and Hatena.
 
 =head1 AUTHOR
 
-Gosuke Miyashita E<lt>gosukenator@gmail.comE<gt>
+Gosuke Miyashita, C<< <gosukenator at gmail.com> >>
 
-=head1 COPYRIGHT AND LICENSE
+=head1 BUGS
 
-Copyright (C) 2006 by paperboy&co. L<http://www.paperboy.co.jp>
+Please report any bugs or feature requests to
+C<bug-webservice-jugemkey-auth at rt.cpan.org>, or through the web interface at
+L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WebService-JugemKey-Auth>.
+I will be notified, and then you'll automatically be notified of progress on
+your bug as I make changes.
 
-This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc WebService::JugemKey::Auth
+
+You can also look for information at:
+
+=over 4
+
+=item * AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/WebService-JugemKey-Auth>
+
+=item * CPAN Ratings
+
+L<http://cpanratings.perl.org/d/WebService-JugemKey-Auth>
+
+=item * RT: CPAN's request tracker
+
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=WebService-JugemKey-Auth>
+
+=item * Search CPAN
+
+L<http://search.cpan.org/dist/WebService-JugemKey-Auth>
+
+=back
+
+=head1 ACKNOWLEDGEMENTS
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2006 paperboy&co., all rights reserved.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =cut
